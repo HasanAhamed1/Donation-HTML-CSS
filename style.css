@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-image: url(images/donation6.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.header-element{
+    text-align: center;
+    color: white;
+    width: 750px;
+    margin: auto;
+    padding: 15% 0;
+}
+
+.header-element h1{
+    font-size: 64px;
+}
+
+.header-element p{
+    margin: auto;
+    font-size: 20px;
+    width: 550px;
+}
+
+.donate-button{
+    color: white;
+    background-color: rgb(240, 74, 53);
+    padding: 15px 25px;
+    font-size: larger;
+    border: 0;
+    border-radius: 6px;
+    margin-top: 20px;
+}
