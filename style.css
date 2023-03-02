@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 header{
@@ -34,4 +35,72 @@ header{
     border: 0;
     border-radius: 6px;
     margin-top: 20px;
+}
+
+.amount-section{
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    padding: 8% 0;
+}
+
+.amount-section h1{
+    font-size: 40px;
+}
+
+.amount-description{
+    margin: auto;
+    padding: 35px 0;
+    font-size: 20px;
+    width: 550px;
+    color: rgb(177, 172, 172);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.amount{
+    width: 120px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(104, 102, 102);
+    background-color: rgb(232, 230, 230);
+    padding-top: 25px;
+    border-radius: 5px;
+}
+
+:hover.amount{
+    border: solid rgb(240, 74, 53) 2px;
+    background-color: rgb(241, 198, 198);
+}
+
+input{
+    width: 750px;
+    height: 50px;
+    border: none;
+    border-bottom: solid 1px rgb(197, 194, 194);
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+.donation{
+    text-align: center;
+}
+
+.donation-plan{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan{
+    width: 300px;
+    height: 150px;
+    padding: 40px 30px;
+    text-align: left;
 }
