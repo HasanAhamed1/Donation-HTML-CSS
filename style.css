@@ -96,11 +96,23 @@ input{
 .donation-plan{
     display: flex;
     justify-content: space-around;
+    width: 78%;
+    margin: auto;
 }
 
 .plan{
-    width: 300px;
-    height: 150px;
+    width: 270px;
+    height: 200px;
     padding: 40px 30px;
     text-align: left;
+}
+
+.plan p{
+    width: 250px;
+    
+}
+
+.plan h3{
+    font-size: 22px;
+    padding: 15px 0;
 }
